@@ -1,0 +1,12 @@
+print("\n\tWelcome the Interactive Personal Data Collector !!")
+name = input("\n\tEnter Your name : ")
+age =int (input("\tEnter your age : "))
+height =float (input("\tEnter your height in meters : "))
+fav=int (input("\tEnter your favourite number : "))
+print("\n\tThank you! Here is the information we collected:\n")
+print("\tName: ",name," (Type : ",type(name)," , Memory address: ",id(name))
+print("\tAge: ",age," (Type : ",type(age)," , Memory address: ",id(age))
+print("\tHeight: ",height," m  (Type : ",type(height)," , Memory address: ",id(height))
+print("\tFavourit number: ",fav," (Type : ",type(fav)," , Memory address: ",id(fav))
+Byear=2026-age
+print("\n\tYour Birth year is approximately: ",Byear,"(Based on your age of ",age,")")
