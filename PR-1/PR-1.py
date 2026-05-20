@@ -1,3 +1,4 @@
+import datetime
 print("\n\tWelcome the Interactive Personal Data Collector !!")
 name = input("\n\tEnter Your name : ")
 age =int (input("\tEnter your age : "))
@@ -8,5 +9,8 @@ print("\tName: ",name," (Type : ",type(name)," , Memory address: ",id(name))
 print("\tAge: ",age," (Type : ",type(age)," , Memory address: ",id(age))
 print("\tHeight: ",height," m  (Type : ",type(height)," , Memory address: ",id(height))
 print("\tFavourit number: ",fav," (Type : ",type(fav)," , Memory address: ",id(fav))
-Byear=2026-age
+current_time=datetime.datetime.now()
+current_year=current_time.strftime("%Y")
+current_year=int(current_year)
+Byear=current_year-age
 print("\n\tYour Birth year is approximately: ",Byear,"(Based on your age of ",age,")")
