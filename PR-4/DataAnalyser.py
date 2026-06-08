@@ -99,6 +99,8 @@ while True:
     choice=int(input('\nEnter your choice: '))
     match choice:
         case 1:
+            Array_1d.clear()
+            matrix.clear()
             array_dimension=int(input("\nEnter the dimension of the array from 1 or 2: "))
             if array_dimension>2 or array_dimension<1:
                 print("\nPlease enter dimension either 1 or 2")
