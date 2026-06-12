@@ -234,76 +234,90 @@ The following screenshots demonstrate the system running end-to-end, covering al
 ---
 
 ### ▶️ Startup & Adding First Developer
-![Adding Developer 1](Screenshot_2026-06-12_154936.png)
+<img src="Image1.png">
+
 > *System launch with the main menu. Adding Developer "Neev" (ID: 1234, Python, Salary: 20000).*
 
 ---
 
 ### 🔁 Duplicate ID Check & Adding Second Developer
-![Duplicate ID & Developer 2](Screenshot_2026-06-12_155018.png)
+<img src="Image2.png">
+
 > *Attempting to re-use ID 1234 — system blocks it. Then adding Developer "Varun Dhavan" (ID: 2345, Javascript, Salary: 34000).*
 
 ---
 
 ### 👁️ Displaying Developers
-![Show Developers](Screenshot_2026-06-12_155055.png)
+<img src="Image3.png">
+
 > *Choosing option 3 → 1 to display all developers. Both Developer 1 (Neev) and Developer 2 (Varun Dhavan) are shown.*
 
 ---
 
 ### ➕ Adding Managers
-![Adding Manager 1](Screenshot_2026-06-12_155118.png)
+<img src="Image4.png">
+
 > *Adding Manager "Funsuk Wangdu" (ID: 3456, Dept: HR, Salary: 78000).*
 
-![Adding Manager 2](Screenshot_2026-06-12_155140.png)
+<img src="Image5.png">
+
 > *Adding Manager "Joe Biden" (ID: 4567, Dept: Finance, Salary: 96) — salary entered incorrectly, later updated.*
 
 ---
 
 ### 👁️ Displaying Managers
-![Show Managers](Screenshot_2026-06-12_155221.png)
+<img src="Image6.png">
+
 > *Choosing option 3 → 2 to display all managers. Both Manager 1 (Funsuk Wangdu, HR) and Manager 2 (Joe Biden, Finance) shown.*
 
 ---
 
 ### ✏️ Updating Developer Name
-![Update Developer Name](Screenshot_2026-06-12_155248.png)
+<img src="Image7.png">
+
 > *Choosing option 4 → 1. Updating Developer ID 1234's name from "Neev" to "Neev Shankar".*
 
 ---
 
 ### ✏️ Updating Manager Salary
-![Update Manager Salary](Screenshot_2026-06-12_155306.png)
+<img src="Image8.png">
+
 > *Choosing option 4 → 2. Updating Finance Manager's salary from 96 to 97000.*
 
 ---
 
 ### 👁️ Verifying Updates — Developers
-![Verify Developer Update](Screenshot_2026-06-12_155328.png)
+<img src="Image9.png">
+
 > *Displaying Developers again — confirms Developer 1 name now shows "Neev Shankar".*
 
 ---
 
 ### 👁️ Verifying Updates — Managers
-![Verify Manager Update](Screenshot_2026-06-12_155344.png)
+<img src="Image10.png">
+
 > *Displaying Managers again — confirms Manager 2 (Finance) salary now shows 97000.*
 
 ---
 
 ### 🗑️ Removing a Developer
-![Remove Developer](Screenshot_2026-06-12_155405.png)
+<img src="Image11.png">
+
 > *Choosing option 5 → 1. Verifies Developer ID 1234 (Neev Shankar) and confirms removal with "Y". Employee Removal → Successful.*
 
 ---
 
 ### 🗑️ Canceling Manager Removal
-![Cancel Manager Removal](Screenshot_2026-06-12_155422.png)
+<img src="Image12.png">
+
 > *Choosing option 5 → 2. Verifies Finance Manager, but user enters "N" to cancel. Employee Removal → Canceled.*
 
 ---
 
 ### 🚪 Exiting the System
-![Exit](Screenshot_2026-06-12_155446.png)
+
+<img src="Image13.png">
+
 > *Choosing option 6. System clears all data and prints "Goodbye, See you later."*
 
 ---
@@ -337,10 +351,7 @@ MIT License — Free to use, modify, and distribute with attribution.
 
 <div align="center">
 
-### Ayush Isamaliya
-
-[![GitHub](https://img.shields.io/badge/GitHub-isamaliya16-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/isamaliya16)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-isamaliya-686533312/)
+### Neev Shankar
 
 > *"Every class is a blueprint, every object is a story — build systems that tell the right one."*
 
