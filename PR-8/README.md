@@ -227,82 +227,96 @@ All six operations support **axis selection** for 2D/3D arrays:
 
 ### ▶️ Main Menu & Input Validation
 
-![Main Menu and Validation](Image 1.png)
+<img src="Image 1.png">
+
 > *Welcome screen with 7-option main menu. Invalid string input "k" caught — "Enter choice as an option number." displayed. User then selects option 1.*
 
 ---
 
 ### 🔢 Creating a 2D Array
 
-![2D Array Input](Image 2.png)
+<img src="Image 2.png">
+
 > *Invalid dimension 6 rejected. Then dimension 2 selected — 6 rows × 4 columns (24 elements) entered. "2D Array created successfully" confirmed.*
 
-![2D Array Display](Image 3.png)
+<img src="Image 3.png">
+
 > *The created 6×4 array displayed. User then selects option 2 (Indexing or Slicing) and chooses Indexing sub-option.*
 
 ---
 
 ### 🔪 Indexing & Slicing
 
-![Indexing and Slicing](Image 4.png)
+<img src="Image 4.png">
+
 > *Indexing: element at row 3, column 3 → value 55. Slicing: rows 0:4, columns 1:3 → 4×2 sub-array `[[15,4],[32,29],[14,87],[12,76]]`.*
 
 ---
 
 ### ➕ Mathematical Operations — Addition & Division
 
-![Math Addition Result](Image 6.png)
+<img src="Image 6.png">
+
 > *Addition of two 6×4 arrays: Original + Second Array = Result array shown element-wise.*
 
-![Math Division Result](Image 8.png)
+<img src="Image 8.png">
+
 > *Division of the stored array by a new 6×4 array — floating-point result array displayed.*
 
 ---
 
 ### 🔗 Combining Arrays
 
-![Combining Arrays](Image 10.png)
+<img src="Image 10.png">
+
 > *Two 6×4 arrays combined using `np.vstack` — resulting 12×4 combined array displayed.*
 
 ---
 
 ### ✂️ Splitting Arrays
 
-![Splitting Arrays](Image 11.png)
+<img src="Image 11.png">
+
 > *Combined 12×4 array split into 3 equal parts using `np.vsplit` — each 4×4 sub-array shown. Invalid choice 33 caught with "Choose valid option" message.*
 
 ---
 
 ### 🔍 Search & Sort
 
-![Search Element](Image 12.png)
+<img src="Image 12.png">
+
 > *Searching for element 28 — found at positions `[(4, 3), (11, 2)]`. Sort sub-menu shown, option 2 (Sort Array) selected.*
 
-![Column-wise Sort](Image 13.png)
+<img src="Image 13.png">
+
 > *Array sorted column-wise (axis=0) — all columns sorted independently in ascending order.*
 
 ---
 
 ### 🎯 Filter Array
 
-![Filter Greater Than](Image 15.png)
+<img src="Image 15.png">
+
 > *Filter condition: elements greater than 20. All matching elements extracted as a 1D boolean-masked result array.*
 
 ---
 
 ### 📈 Aggregation — Row-wise Sum & Standard Deviation
 
-![Row-wise Sum](Image 17.png)
+<img src="Image 17.png">
+
 > *Sum computed row-wise (axis=1) — each row's total displayed as `[196, 115, 291, 213, 49, 177, 216, 226, 278, 249, 128, 145]`.*
 
-![Standard Deviation](Image 18.png)
+<img src="Image 18.png">
+
 > *Standard deviation computed over the entire array: **31.558**.*
 
 ---
 
 ### 🚪 Exit
 
-![Exit](Image 19.png)
+<img src="Image 19.png">
+
 > *User selects option 7 from main menu. Program prints "Thank you for using Numpy Analyzer...." and exits cleanly.*
 
 ---
